@@ -1,5 +1,27 @@
-.pio
-.vscode/.browse.c_cpp.db*
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/ipch
+# --- PlatformIO: build output + libs tự sinh (mọi env, mọi project) ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.cache/
+.dummy/
+compile_commands.json
+
+# --- VS Code
+.vscode/
+
+# --- Firmware / build artifact ---
+*.bin
+*.elf
+*.map
+*.hex
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.matplotlib/
